@@ -26,3 +26,25 @@ const fun = function(){
     console.log("hello world");
     
 }
+
+// Stack(primitive), Heap (Non-Premitive)
+
+let tubename = "atombom"
+let anotherName = tubename
+anotherName = 'yourName'
+console.log(anotherName);
+console.log(tubename);
+
+
+let newObj = {
+    'emailId': 'atom@goole.com',
+    'password': 12345,
+}
+
+let newObj2 = newObj
+newObj2.emailId = 'element@google.com'
+
+console.log(newObj);
+console.log(newObj2);
+
+
