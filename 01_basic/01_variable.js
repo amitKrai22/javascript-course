@@ -11,4 +11,6 @@ console.log(accountId)
 prefer not to use var
 because issue in block scope and functional scope
 */
+// console.log(typeof accountCity);
+
 console.table([accountId,EmailId,EmailPassword,accountCity, accountState])
